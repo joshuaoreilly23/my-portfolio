@@ -7,109 +7,265 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <nav>
-    <div vlass="logo"> Joshua.dev</div>
+    <div class="logo">Joshua.dev</div>
+
     <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#learning">Learning</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
 <header class="hero">
-    <h1>Joshua O'Reilly</h1>
-    <h2>Beginner Full-Stack Developer</h2>
-    <p>I am a 21-year-old software development student with entery level skills willing to take it further by going the extra mile  .</p>
-    <a href="#projects" class="btn">View My Work</a>
+    <div class="hero-content">
+        <p class="hero-tag">SOFTWARE DEVELOPMENT STUDENT</p>
+        <h1>Joshua O'Reilly</h1>
+        <h2>Beginner Full-Stack Developer</h2>
+
+        <p>
+            I am a software development student building my skills in
+            web development, programming and database development.
+            I'm always looking for new things to learn and improve.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+    </div>
 </header>
 
 <section id="about" class="section hidden">
     <h2>About Me</h2>
-    <p>
-        I'm a passionate beginner developer building my foundation in full-stack development.
-        I currently have a few more projects that i have done thus far in my github which i am still improving and updating daily.
-    </p>
-    <p>
-        Outside of coding, I love cars which have always been an interest to me, gaming which i love quite a bunch,
-        photography as i like capturing moments in life, and anything creative that challenges me to improve.
-    </p>
+
+    <div class="about-container">
+        <div class="about-text">
+            <p>
+                I'm a passionate beginner developer building my foundation
+                in full-stack development. I currently have several projects
+                on GitHub that I continue to improve and update as I learn.
+            </p>
+
+            <p>
+                My main goal is to keep developing my skills through
+                practical projects and real-world experience.
+            </p>
+
+            <p>
+                Outside of coding, I love cars, especially JDM cars,
+                gaming, photography and anything creative that gives me
+                a chance to learn something new.
+            </p>
+        </div>
+
+        <div class="about-stats">
+            <div class="stat-card">
+                <h3>3+</h3>
+                <p>Projects</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>7+</h3>
+                <p>Technologies</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>∞</h3>
+                <p>Things To Learn</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="skills" class="section hidden">
     <h2>Technical Skills</h2>
 
     <div class="skills-grid">
+
         <div class="skill-card">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
             <p>Python</p>
         </div>
+
         <div class="skill-card">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
             <p>JavaScript</p>
         </div>
+
         <div class="skill-card">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
             <p>HTML5</p>
         </div>
+
         <div class="skill-card">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
             <p>CSS3</p>
         </div>
+
         <div class="skill-card">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt="ASP.NET">
             <p>ASP.NET</p>
         </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+            <p>C#</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+            <p>SQL</p>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+            <p>Git</p>
+        </div>
+
     </div>
 </section>
 
-<!-- PROJECTS -->
+<section id="learning" class="section hidden">
+    <h2>Currently Learning</h2>
+
+    <div class="learning-container">
+
+        <div class="learning-card">
+            <span>01</span>
+            <h3>ASP.NET & C#</h3>
+            <p>
+                Developing my understanding of MVC applications,
+                controllers, models, views and backend development.
+            </p>
+        </div>
+
+        <div class="learning-card">
+            <span>02</span>
+            <h3>Databases</h3>
+            <p>
+                Learning SQL, database design, queries and how
+                applications communicate with databases.
+            </p>
+        </div>
+
+        <div class="learning-card">
+            <span>03</span>
+            <h3>JavaScript</h3>
+            <p>
+                Improving my understanding of interactive websites,
+                DOM manipulation and JavaScript functionality.
+            </p>
+        </div>
+
+    </div>
+</section>
+
 <section id="projects" class="section hidden">
     <h2>Projects</h2>
 
     <div class="projects-grid">
 
         <div class="project-card">
+            <div class="project-number">01</div>
             <h3>Quick Quiz App</h3>
-            <p>A timed quiz application with a 10-second countdown and scoring system.</p>
-            <a href="https://joshuaoreilly23.github.io/Quiz/" target="_blank">Quiz</a>
-            <p class="tech">HTML • CSS • JavaScript</p>
+            <p>
+                A timed quiz application with a 10-second countdown,
+                multiple questions and a scoring system.
+            </p>
+
+            <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <a href="https://joshuaoreilly23.github.io/Quiz/" target="_blank">
+                View Project →
+            </a>
         </div>
 
         <div class="project-card">
+            <div class="project-number">02</div>
             <h3>Contact Page</h3>
-            <p>A responsive contact form allowing users to submit name, email, and message.</p>
-            <a href="https://joshuaoreilly23.github.io/Contact-Us/" target="_blank">Contact Page</a>
-            <p class="tech">HTML • CSS</p>
+            <p>
+                A responsive contact page designed to allow users
+                to enter their name, email and message.
+            </p>
+
+            <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+            <a href="https://joshuaoreilly23.github.io/Contact-Us/" target="_blank">
+                View Project →
+            </a>
         </div>
 
         <div class="project-card">
-            <h3>Simple Weather Retrieving App</h3>
-            <p>A simple app that lets you retrieve the weather for any city specified around the world</p>
-            <a href="https://joshuaoreilly23.github.io/Weather-Retrieving/" target="_blank">Weather Retrieve</a>
-            <p class="tech">HTML • CSS • JavaScript</p>
+            <div class="project-number">03</div>
+            <h3>Weather Retrieving App</h3>
+            <p>
+                A simple weather application that allows users
+                to retrieve weather information for different cities.
+            </p>
+
+            <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <a href="https://joshuaoreilly23.github.io/Weather-Retrieving/" target="_blank">
+                View Project →
+            </a>
         </div>
 
     </div>
+
+    <div class="github-section">
+        <p>More of my projects and experiments can be found on GitHub.</p>
+
+        <a href="https://github.com/joshuaoreilly23" target="_blank" class="github-btn">
+            Visit My GitHub →
+        </a>
+    </div>
 </section>
 
-<!-- CONTACT -->
 <section id="contact" class="section hidden">
-    <h2>Contact</h2>
-    <p>I am currently open to internship opportunities and collaborations. You can find my GitHub profile, my Email and my instagram account for contact down below.</p>
+    <h2>Let's Connect</h2>
+
+    <p class="contact-text">
+        I am currently open to internship opportunities, collaborations
+        and opportunities to gain more experience in software development.
+    </p>
 
     <div class="contact-links">
-        <a href="mailto:your.joshuaoreilly23@gmail.com">Email</a>
-        <a href="https://github.com/joshuaoreilly23" target="_blank">GitHub</a>
-        <a href="https://instagram.com/_joshoreilly" target="_blank">Instagram</a>
+        <a href="mailto:joshuaoreilly23@gmail.com" class="contact-btn">
+            Email
+        </a>
+
+        <a href="https://github.com/joshuaoreilly23" target="_blank" class="contact-btn">
+            GitHub
+        </a>
+
+        <a href="https://instagram.com/_joshoreilly" target="_blank" class="contact-btn">
+            Instagram
+        </a>
     </div>
 </section>
 
 <footer>
-    <p>© 2026 Joshua O'Reilly | All Rights Reserved</p>
+    <p>© 2026 Joshua O'Reilly | Built with HTML, CSS & JavaScript</p>
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
